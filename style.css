@@ -7,7 +7,7 @@ html{
     font-size: 62.5%;
     scroll-behavior: smooth;
 }
-@media(orientation: portrait) and (min-width: 360px){
+@media(orientation: portrait) and (min-width: 335px){
        body section.aboutus{
                 height: 150vh;
                 
