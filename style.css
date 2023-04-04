@@ -298,8 +298,8 @@ body {
 }
 
 .slide-in-blurred-top {
-	-webkit-animation: slide-in-blurred-top 1.6s cubic-bezier(0.23, 1, 0.32, 1) 2.1s
-		both;
+	-webkit-animation: slide-in-blurred-top 1.6s cubic-bezier(0.23, 1, 0.32, 1)
+		2.1s both;
 	animation: slide-in-blurred-top 1.6s cubic-bezier(0.23, 1, 0.32, 1) 2.1s both;
 }
 .fa-radiation {
@@ -436,7 +436,6 @@ section.aboutus {
 	font-size: 1.8rem;
 }
 .accordion-body {
-	
 	height: 60vh;
 	background-image: url(./img/industry-g8d79de53b_1920.jpg);
 	background-position: center;
@@ -501,19 +500,18 @@ section.aboutus {
 .wrap-img:hover{
         transform: scale(1.2);
 } */
-.contact h3{
+.contact h3 {
 	font-size: 2rem;
 	font-weight: bold;
 	text-transform: uppercase;
-
 }
-.contact .submit-btn{
+.contact .submit-btn {
 	font-size: 1.6rem;
 }
-.form-control{
+.form-control {
 	font-size: 1.4rem;
 }
-.contact{
+.contact {
 	background-image: url(./img/phone-g18c781cad_1920.jpg);
 	background-position: center;
 	background-size: cover;
@@ -522,28 +520,27 @@ section.aboutus {
 	justify-content: center;
 	align-items: center;
 }
-.contact .container{
+.contact .container {
 	backdrop-filter: blur(5px);
 	border-radius: 25px;
 }
-.input-group{
+.input-group {
 	color: #000;
 }
-.input-group input.form-control{
+.input-group input.form-control {
 	color: #fff;
-	background-color: rgba(0, 0, 0, 0.4)
-}
-input.form-control::placeholder{
-	color: #fff;
-}
-.input-group textarea{
 	background-color: rgba(0, 0, 0, 0.4);
-	
 }
-.input-group textarea::placeholder{
+input.form-control::placeholder {
 	color: #fff;
 }
-.right-side-contact{
+.input-group textarea {
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.input-group textarea::placeholder {
+	color: #fff;
+}
+.right-side-contact {
 	background-color: rgba(0, 0, 0, 0.4);
 	border-radius: 25px;
 }
