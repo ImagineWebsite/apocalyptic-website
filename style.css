@@ -501,10 +501,49 @@ section.aboutus {
 .wrap-img:hover{
         transform: scale(1.2);
 } */
-.col-9,
-.col-3 {
-	border: 2px solid #fff;
+.contact h3{
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+
 }
-.row-cols-3 {
-	background-color: rgb(204, 13, 13);
+.contact .submit-btn{
+	font-size: 1.6rem;
+}
+.form-control{
+	font-size: 1.4rem;
+}
+.contact{
+	background-image: url(./img/phone-g18c781cad_1920.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contact .container{
+	backdrop-filter: blur(5px);
+	border-radius: 25px;
+}
+.input-group{
+	color: #000;
+}
+.input-group input.form-control{
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.4)
+}
+input.form-control::placeholder{
+	color: #fff;
+}
+.input-group textarea{
+	background-color: rgba(0, 0, 0, 0.4);
+	
+}
+.input-group textarea::placeholder{
+	color: #fff;
+}
+.right-side-contact{
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 25px;
 }
