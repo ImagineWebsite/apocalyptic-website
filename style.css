@@ -506,7 +506,7 @@ section.aboutus {
 	text-transform: uppercase;
 }
 .contact .submit-btn {
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 }
 .form-control {
 	font-size: 1.4rem;
@@ -526,10 +526,13 @@ section.aboutus {
 }
 .input-group {
 	color: #000;
+	
 }
 .input-group input.form-control {
 	color: #fff;
 	background-color: rgba(0, 0, 0, 0.4);
+	border: 2px solid black;
+	border-radius: 15px;
 }
 input.form-control::placeholder {
 	color: #fff;
@@ -543,4 +546,26 @@ input.form-control::placeholder {
 .right-side-contact {
 	background-color: rgba(0, 0, 0, 0.4);
 	border-radius: 25px;
+	border: 2px solid black;
+}
+
+.input-group textarea.form-control{
+	background-color: rgba(0, 0, 0, 0.4);
+	color: #fff;
+	border: 2px solid black;
+	border-radius: 15px;
+}
+input.btn{
+	background-color: rgba(255, 197, 5, 0.5);
+	border: 2px solid black;
+	padding: 10px 35px;
+	color: #000000;
+	font-size: 1.8rem;
+	border-radius: 25px;
+}
+input.btn:hover{
+	background-color: rgba(0, 0, 0, 0.7);
+	border: 2px solid rgb(0, 0, 0);
+	color: #fff;
+	
 }
