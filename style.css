@@ -257,6 +257,7 @@ body {
 	background-color: #333;
 	font-family: "Roboto", sans-serif;
 	font-size: 1.6rem;
+	position: relative;
 }
 .hero-shadow {
 	position: absolute;
@@ -523,6 +524,7 @@ section.aboutus {
 .contact .container {
 	backdrop-filter: blur(5px);
 	border-radius: 25px;
+	height: 95%;
 }
 .input-group {
 	color: #000;
@@ -568,4 +570,9 @@ input.btn:hover{
 	border: 2px solid rgb(0, 0, 0);
 	color: #fff;
 	
+}
+@media(min-width: 350px) and (max-width:1024px){
+	.contact{
+		background-position: left;
+	}
 }
